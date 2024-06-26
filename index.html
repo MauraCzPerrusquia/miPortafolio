@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<!--Portafolio de habilidades creado con Bootstrap-->
+<!--Paso 1:Importar bootstrap de https://getbootstrap.com/-->
+<!--a. Importar el CSS en el head abajo de title y arriba de nuestra hoja de CSS (en caso de haber).-->
+<!--b. Importar el JS va arriba de la etiqueta de cierre del body. -->
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maura Perrusquia</title>
+    <link rel="shortcut icon" href="assets/icono.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-light text-white">
+        <div class="container">
+            <a class="navbar-brand text-black" href="#"><img>Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="text-black nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-black nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-black nav-link" href="#testimonios">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-black nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="yo" class="container-fluid vh-100 d-flex flex-column align-items-center justify-content-center py-5 px-3">
+        <div class="p-5 text-left text-white">
+            <div class="container py-5">
+                <h1 class="display-5 fw-bold">Hola, soy</h1>
+                <h1 id="app" class="display-5 fw-bold letra-color">Maura Perrusquia</h1>
+
+                <p class="col-lg-8 lead w-55 mt-3 justificado">
+                    Me gusta el desarrollo web, he desarrollado proyectos de FrontEnd, BackEnd y Fullstack.
+                    Mi mayor motivación es seguir creciendo y desarollando mis habilidades.
+                    Mis tres pasiones son: Tecnología, Moda y la Salud mental, espero en un futuro lograr combinar todas en una sola 
+                </p>
+                <p class="col-lg-8 lead w-55 mt-3 justificado">
+                    Abierta para aventurarme a desafios más grandes! :D
+                </p>
+                <div>
+                    <button type="button" class="btn btn-light px-3" onclick="window.location.href='mauracperrusquia@gmail.com'">Contáctame</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="habilidades" class="mt-5">
+            <div class="container px-4 py-5" id="hanging-icons">
+                <h2 class="pb-2 border-bottom">Habilidades</h2>
+
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+
+                    <div class="col d-flex align-items-start justificado">
+                        <div
+                            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                            <i class="bi-file-code icono-gigante"></i>
+                        </div>
+                        <div>
+                            <h3 class="fs-2 text-body-emphasis centrado">Desarrollo Web</h3>
+                            <p>He trabajado con los siguientes lenguajes de Desarrollo Web:
+                                Angular JS, PHP, JavaScrip, Laravel, HTML, CSS, Python, entre otros                            
+
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col d-flex align-items-start justificado">
+                        <div
+                            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+
+                            <i class="bi-people-fill icono-gigante"></i>
+
+                        </div>
+                        <div>
+                            <h3 class="fs-2 text-body-emphasis centrado">Trabajo en Equipo</h3>
+                            <p>Dentro de los proyectos en los que he participado, he trabajado de manera muy abierta cuando se trata de trabajo en equipo. Soy una persona sumamente flexible y que se adapta a los cambios.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col d-flex align-items-start justificado">
+                        <div
+                            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+
+                            <i class="bi-stars icono-gigante"></i>
+                        </div>
+                        <div>
+                            <h3 class="fs-2 text-body-emphasis centrado">Responsibilidad</h3>
+                            <p>
+                                Soy una persona sumamente ordenada por lo cual lleva el que tenga el control de mis pendientes y saber entregar las tareas en tiempo y forma                     
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <div class="album py-5 bg-body-tertiary">
+                <div class="container">
+                    <h2 class="my-5 border-bottom pb-2">Proyectos</h2>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                        <!-- Inicio Proyecto 1 -->
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <figure>
+                                    <img src="assets/ClonGoogle.png" class="img-clon" alt="Proyecto Clon de Google">
+                                </figure>
+                                <main class="card-body justificado">
+                                    <p class="card-text">
+                                        Proyecto creado con HTML y CSS, con el objetivo de conocer más sobre ambos lenguajes y poner en marcha el conocimiento adquirido en clases
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                                <a href="https://harmonious-raindrop-f92b29.netlify.app/" target="_blank" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Ver</a>
+                                            </button>
+                                        </div>
+                                        <small class="text-body-secondary">Clon de Google</small>
+                                    </div>
+                                </main>
+                            </div>
+                        </div>
+                        <!-- Fin Proyecto 1 -->
+
+                        <!-- Inicio Proyecto 2 -->
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <figure>
+                                    <img src="assets/Display.png" class="img-displays" alt="Proyecto Displays">
+                                </figure>
+                                <div class="card-body justificado">
+                                    <p class="card-text">
+                                        En la clase de Display de Tecnolochicas PRO, se nos muestran diferentes ejemplos para comprender como estan estructurados y despues lograr ponerlo en practica
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://clasedisplay.netlify.app/" target="_blank" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Ver</a></button>
+                                        </div>
+                                        <small class="text-body-secondary">Display</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Fin Proyecto 2 -->
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonios" class="container">
+            <h2 class="my-5 border-bottom pb-2">Testimonios</h2>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+                <!-- Sección editable del carrusel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="d-flex justify-content-center">
+                            <div class="card mb-3 border-0" style="max-width: 900px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="assets/person.jpg" class="img-fluid rounded-circle"
+                                            alt="Testimonio Edgar Mata">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Edgar Mata</h5>
+                                            <p class="card-text"><small class="text-body-secondary">Colega de UPQ</small></p>
+                                            <p class="card-text-centrado">
+                                                "Como compañero de clase, Maura destaca por ser una persona muy apasionada"
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item " data-bs-interval="2000">
+                        <div class="d-flex justify-content-center">
+                            <div class="card mb-3 border-0" style="max-width: 900px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="assets/person.jpg" class="img-fluid rounded-circle"
+                                            alt="Testimonio Sergio Mejia">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sergio Mejía</h5>
+                                            <p class="card-text"><small class="text-body-secondary">Jefe inmediato en Yanfeng</small></p>
+                                            <p class="card-text-centrado">
+                                                "Maura como interna de calidad en desarrollo de software destaco siendo una persona autoindependiente logrando sacar sus pendientes sin supervisión"
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="card mb-3 border-0" style="max-width: 900px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="assets/person.jpg" class="img-fluid rounded-circle"
+                                            alt="Mateo Flores">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Mateo Flores</h5>
+                                            <p class="card-text"><small class="text-body-secondary">Director de Ekide México</small></p>
+                                            <p class="card-text">
+                                                "Maura es una persona muy dedicada y con buena comunicación para externar sus dudas"
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Fin sección editable del carrusel -->
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contacto">
+        <div class="bg-black text-secondary px-4 py-5 text-center">
+          <div class="py-5">
+    
+            <i id="icono-footer" class="bi bi-code icono-gigante" fill="white"></i>
+    
+            <div class="col-lg-6 mx-auto">
+              <p class="fs-5 mb-4 text-white">"La educación no cambia al mundo: cambia a las personas que van a cambiar al mundo"</p>
+              
+              <div id="iconos" class="d-grid gap-2 d-sm-flex justify-content-sm-center" fill="white">
+                <a href="https://github.com/MauraCzPerrusquia" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github icono-contacto"></i>
+                </a>
+                <a href="www.linkedin.com/in/mauraperrusquia" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-linkedin icono-contacto"></i>
+                </a>
+                <a href="https://www.instagram.com/maura.perrusquia" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-instagram icono-contacto"></i>
+                </a>
+                <a href="mauracperrusquia@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-envelope icono-contacto"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-between mx-0">
+            <div class="col-md-6">
+                <div class="d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+                    <span class="bg-black text-white">© 2024 Technolochicas PRO, b4-g2 - Maura perrusquia</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="text-end">
+                    <span class="list-unstyled"><a href="#" class="ms-3 text-white">Imágenes de Freepik</a></span>
+                </div>
+            </div>
+        </div>        
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

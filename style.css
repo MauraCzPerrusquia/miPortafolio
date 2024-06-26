@@ -1,0 +1,48 @@
+header {
+    background-image: linear-gradient(rgba(64, 68, 68, 0.87), rgba(148, 43, 62, 0.544)), url("assets/background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.justificado {
+    text-align:justify;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.letra-color {
+    background: linear-gradient(to right,rgb(85, 23, 73), rgb(71, 12, 12),rgb(59, 59, 59)); 
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.icono-gigante {
+    font-size: 7rem;
+    padding: 5px 10px;
+}
+
+.img-clon {
+    width: 100%;
+}
+
+.img-displays {
+    width: 100%;
+}
+
+.img-pagina {
+    width: 100%;
+}
+
+.card-text-centrado {
+    margin: 15px;
+    text-align: justify;
+}
+
+.icono-contacto{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    margin: 4px 8px;
+
+}
